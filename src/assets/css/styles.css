@@ -1,0 +1,15 @@
+h1 {
+  color:blue;
+  border-left: 1px red solid;
+  border-right: 1px orange solid;
+  border-top:  1px blue solid;
+  border-bottom:  1px pink solid;
+}
+a:hover{
+  color: red;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
