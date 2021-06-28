@@ -1,17 +1,19 @@
 <template>
-  <h1>標籤選擇器</h1>
-  <a href="#">擬態選擇器</a>
-  <br>
-  <br>
-  <br>
-  <p style="color:red">line-hiegh 是隨著文字去設定幾倍，例如文字是16px，代表這一行的高度就是16*.15=25</p>
-  <p>
-    nam nemo officia quo delectus nulla maxime voluptatem. Impedit necessitatibus
-    blanditiis numquam dolore rerum voluptas enim libero dolores iusto nobis?
-  </p>
+  <div>
+    <h1>標籤選擇器</h1>
+    <a href="#">擬態選擇器</a>
+    <br>
+    <br>
+    <br>
+    <p style="color:red">line-hiegh 是隨著文字去設定幾倍，例如文字是16px，代表這一行的高度就是16*.15=25</p>
+    <p>
+      nam nemo officia quo delectus nulla maxime voluptatem. Impedit necessitatibus
+      blanditiis numquam dolore rerum voluptas enim libero dolores iusto nobis?
+    </p>
+  </div>
 </template>
 
-<style scoped src='../assets/css/styles.css'>
+<style scoped src='../assets/css/styles.css'></style>
 <style scoped>
 /* @import '../assets/css/styles.css' */
   /* h1 {

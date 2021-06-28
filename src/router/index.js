@@ -10,9 +10,6 @@ const routes = [
   {
     path: '/about',
     name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
@@ -22,35 +19,33 @@ const routes = [
     children: [
       {
         path: 'vuecssmanagement',
-        name: 'VueCssManagement',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
+        name: 'VuecssManagement',
         component: () => import('../views/VueCssManagement.vue')
       },
       {
         path: 'html1',
         name: 'Html1',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
         component: () => import('../views/Html1.vue')
       },
       {
         path: 'html2',
         name: 'Html2',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
         component: () => import('../views/Html2.vue')
       },
       {
         path: 'composing1',
         name: 'Composing1',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
         component: () => import('../views/Composing1.vue')
+      },
+      {
+        path: 'composing2',
+        name: 'Composing2',
+        component: () => import('../views/Composing2.vue')
+      },
+      {
+        path: 'marginpadding',
+        name: 'MarginPadding',
+        component: () => import('../views/MarginPadding.vue')
       }
     ]
   }

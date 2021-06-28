@@ -13,10 +13,22 @@
             <router-link class="nav-link" to="/dashboard/html2">基礎Html2</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/dashboard/composing1">排版1</router-link>
+            <router-link class="nav-link" to="/dashboard/composing1">Css元素種類</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/dashboard/composing2">後代選擇器</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/dashboard/marginpadding">Margin和Padding</router-link>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  name: 'NavBar'
+}
+</script>

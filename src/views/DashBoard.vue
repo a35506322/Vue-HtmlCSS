@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid mt-3 position-relative">
     <NavBar></NavBar>
-    <router-view></router-view>
+    <router-view />
   </div>
 </template>
 
@@ -13,3 +13,5 @@ export default {
   }
 }
 </script>
+
+<style src='../assets/css/reset.css'></style>
