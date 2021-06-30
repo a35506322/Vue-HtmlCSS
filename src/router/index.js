@@ -13,6 +13,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
+    path: '/flex',
+    name: 'Flex',
+    component: () => import('../views/Flex.vue')
+  },
+  {
     path: '/dashboard',
     name: 'DashBoard',
     component: () => import('../views/DashBoard.vue'),
