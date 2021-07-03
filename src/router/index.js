@@ -18,6 +18,11 @@ const routes = [
     component: () => import('../views/Flex.vue')
   },
   {
+    path: '/no8website',
+    name: 'No8Website',
+    component: () => import('../views/No8Website.vue')
+  },
+  {
     path: '/dashboard',
     name: 'DashBoard',
     component: () => import('../views/DashBoard.vue'),
